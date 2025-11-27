@@ -1,5 +1,5 @@
-tenant_id       = "b88318e4-51e5-4953-b3e1-6f8df1d990ce" # Can also be set via `ARM_TENANT_ID` environment variable.
-subscription_id = "c3408e32-e222-42c2-8c6d-9edc55d79da8"
+tenant_id       = "13e1d39e-31a5-4120-87db-a3a95ddfe8ec" # Can also be set via `ARM_TENANT_ID` environment variable.
+subscription_id = "23ddfde2-719e-4d48-8dfc-940b2c5be0a3"
 
 resource_group = {
   rg1 = {
