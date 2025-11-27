@@ -18,8 +18,8 @@ terraform {
 provider "azurerm" {
 
   features {}
-  tenant_id       = var.tenant_id
-  subscription_id = var.subscription_id
+  #tenant_id       = var.tenant_id
+  subscription_id = "23ddfde2-719e-4d48-8dfc-940b2c5be0a3"
 
 }
 
