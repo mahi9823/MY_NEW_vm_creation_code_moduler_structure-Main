@@ -1,10 +1,13 @@
 variable "subscription_id" {
-  description = "The subscription ID for the Azure subscription"
+  description = "(Optional) The subscription ID for the Azure subscription. If not set, Terraform will use the authenticated account's subscription."
   type        = string
+  default     = ""
 }
+
 variable "tenant_id" {
-  description = "The tenant ID for the Azure subscription"
+  description = "(Optional) The tenant ID for the Azure subscription. If not set, Terraform will use the authenticated account's tenant."
   type        = string
+  default     = ""
 }
 
 variable "resource_group" {
